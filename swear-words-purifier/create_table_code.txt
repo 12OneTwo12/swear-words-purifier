@@ -1,0 +1,12 @@
+create table bad_words (
+bad_word_id int,
+bad_word varchar(14),
+kind_word varchar(14),
+constraint pk_swear_words_purifier primary key (bad_word_id)
+);
+
+create table used_bad_word (
+bad_word_id int,
+bad_word varchar(14),
+used int,
+);
