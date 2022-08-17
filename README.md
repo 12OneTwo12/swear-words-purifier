@@ -66,3 +66,5 @@
   ```
 * ### 동작 과정
   
+  ![image url](https://github.com/12OneTwo12/swear-words-purifier/blob/main/ezgif.com-gif-maker%20(1).gif?raw=true)  
+    
