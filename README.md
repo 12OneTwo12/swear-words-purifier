@@ -57,6 +57,14 @@
             
     ``` 
     
+* ### 데이터 구조  
+
+  | Field       | Type        | Key | Extra          |
+  |-------------|-------------|-----|----------------|
+  | bad_word_id | int         | PRI | auto_increment |
+  | bad_word    | varchar(14) |     |                |
+  | kind_word   | varchar(14) |     |                |
+      
 * ### 느낀 점
   ```
   내가 한달간 배운 것들을 토대로 Java와 MySQL을 토대로 내가 원하는 프로그램을 만들 수 있다는 게 신기하고 재미있었다.  
@@ -66,5 +74,5 @@
   ```
 * ### 동작 과정
   
-  ![image url](https://github.com/12OneTwo12/swear-words-purifier/blob/main/ezgif.com-gif-maker%20(1).gif?raw=true)  
+  ![image url](https://github.com/12OneTwo12/swear-words-purifier/blob/main/ezgif.com-gif-maker%20(2).gif?raw=true)  
     
