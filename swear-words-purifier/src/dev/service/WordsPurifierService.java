@@ -14,7 +14,7 @@ public class WordsPurifierService {
 		String transText = scanText;
 		for (Word word : words) {
 			if (scanText.contains(word.getBadWord())) {
-				transText = transText.replaceAll(word.getBadWord(), (word.getKindWord() + " "));
+				transText = transText.replaceAll(word.getBadWord(), (word.getKindWord()));
 			}
 		}
 		return transText;
